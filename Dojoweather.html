@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Dojoweather
+        </title>
+        <link rel="stylesheet" href="Dojoweather.css">
+<!--Top of website-->
+        <div class="topbar">
+            <div>
+                <h1 class="dw">Dojoweather</h1>
+            </div>
+<!--Buttons-->
+            <div class="buttons">
+                <button class="city" onclick="weatherAlert(this)">Manhattan</button>
+                <button class="city" onclick="weatherAlert(this)"> Brooklyn</button>
+                <button class="city" onclick="weatherAlert(this)">Bronx</button>           
+            </div> 
+        </div>
+<!--Row two-->
+        <div class="rt">
+            <div>
+                <h1>New York City</h1>
+            </div>
+            <div>
+                <label>Show temperature in</label>
+                <select onchange="chooseWeather(this)">
+                    <option>C</option>
+                    <option>F</option>
+                </select>            
+            </div>
+        </div>
+        <hr>
+        <!--Weather boxes-->
+        <div class="row">
+        <!--Today's weather-->
+            <div class="todayweather">
+                <h1>Today</h1>
+                <img src="some_rain.png" alt="rain">
+                <p class="sr">Some rain</p>
+                <div class="tw">
+                    <p class="temp">24</p>
+                    <p class="temp">18</p>
+                </div>
+            </div>
+            <!--Tomorrow's weather-->
+            <div class="tomorrowweather">
+                <h1>Tomorrow</h1>
+                <img src="some_sun.png" alt="sun">
+                <p class="sunny">Sunny</p>
+                <div class="tw2">
+                    <p class="temp">27</p>
+                    <p class="temp">19</p>
+                </div>
+            </div>
+            <!--Friday's weather-->
+            <div class="fridayweather">
+                <h1>Friday</h1>
+                <img src="some_clouds.png" alt="clouds">
+                <p class="cloudy">Cloudy</p>
+                <div class="tw3">
+                    <p class="temp">21</p>
+                    <p class="temp">16</p>
+                </div>
+            </div>
+            <!--Saturday's weather-->
+            <div class="saturdayweather">
+                <h1>Saturday</h1>
+                <img src="some_sun.png" alt="sun">
+                <p class="sun">Sunny</p>
+                <div class="tw4">
+                    <p>26</p>
+                    <p>21</p>
+                </div>
+            </div>
+        </div>
+        <!--Cookie box info-->
+        <div class="cookiebox">
+            <div class="cookiepic">
+                <img src="cookie.png" alt="cookie">
+            </div>
+            <div class="cookietxt">
+                <p class="stop">Stop! Cookie time</p>
+                <div class="text">
+                    <p class="weuse">We use cookies (unfortunately not the edible ones) to personalize content and adds, to provide social media features and to analyze our traffic</p>
+                    <a class="link" href="google.com">Read More</a>
+                </div>
+            </div>
+            <div>
+                <button onclick="removeCookie(this)" class="accept">I accept</button>
+
+            </div>
+        </div>
+        
+        <script src="Dojoweather.js"></script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+.topbar
+{
+    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    margin-left: 25px;
+    justify-content: space-around;
+}
+.buttons
+{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.rt 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 550px;
+}
+.todayweather
+{
+    border: 3px solid black;
+    padding: 10px;
+    width: 250px;
+}
+.tw 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sr
+{
+    display: flex;
+    justify-content: center;
+}
+.tomorrowweather
+{
+    border: 3px solid black;
+    padding: 10px;
+    width: 250px;
+
+}
+.row 
+{
+    display: flex;
+    justify-content: space-around;
+}
+.tw2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fridayweather
+{
+    border: 3px solid black;
+    padding: 10px;
+    width: 250px;
+}
+.tw3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.saturdayweather
+{
+    border: 3px solid black;
+    padding: 10px;
+    width: 250px;
+}
+.tw4
+{
+    display: flex;
+    justify-content: space-between;
+}
+.stop
+{
+    font-size: 20px;
+}
+.cookiebox
+{
+    display: flex;
+    border: 3px solid black;
+    width: 800px;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+.accept
+{
+    padding: 10x;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 10px;
+}
